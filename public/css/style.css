@@ -1,0 +1,116 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+		background-color:red;
+	} 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+	body
+	{
+		background-color:green;
+	} 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+	body
+	{
+		background-color:blue;
+	} 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+	body
+	{
+		background-color:yellow;
+	} 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+	body
+	{
+		background-color:white;
+	} 
+}
+
+/* Override All media queries */
+
+body
+{
+	min-width:800px;
+}
+
+.bloc_page
+{
+	min-height:600px;			
+}
+
+.home_overview
+{
+	height:600px;
+}
+
+.product_img_index
+{	
+	height:200px;
+}
+
+.product_img_show_mini
+{	
+	height:100px;
+}
+
+.product_img_show_display
+{
+	height:500px;
+}
+
+.bloc_title
+{
+	height:90px;	
+}
+
+.bloc_clic
+{
+	color:black;
+}
+
+.bloc_clic:hover
+{
+	color:#ff9200;	
+}
+
+.card_number
+{
+  position: absolute;
+  left: 20px;
+  top: -35px;
+  z-index: 1;
+}
+
+.card_shop
+{
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  z-index: 1;
+}
+
+.cart_confirm_line
+{
+  	border-width: 2px;
+  	border-color: black;
+	border-top-style: dashed;
+}
+
